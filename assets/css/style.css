@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+
+}
 h1 {
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -6,28 +11,71 @@ h1 {
     padding: 10px;
 }
 
+ul {
+    display: block;
+    background-color: #777777;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+    display: block;
+    background-color: white;
+    color: #777777;
+    float: right;
+  }
+
+.name {
+    padding: 8px;
+    color: white;
+    background-color: #4aaaa5; 
+    margin-left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    float: left;
+}
 
 h2 {
     color: #4aaaa5;
     font-size: 30px;
-    margin-left: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
  }
 
  body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
-    color:white;
-    max-width: 960px;
-    margin: auto;
-    background-color: #ffffff;
+    background-color: lightgray;
  }
 
  .container {
+     padding: 20px;
+     display: block;
      color: #777777;
+     border:1px solid #dddddd;
+     margin:35px auto;
      font-family: Arial, Helvetica, sans-serif;
+     width: 960px;
+     background-color:#ffffff;
  }
 
- .title {
-     color: #4aaaa5;
+ .navbar {
+     background-color:white;
+     overflow:auto;
+     width: 100vw;
+    border-bottom: 1px solid #dddddd;
  }
+
+ #about {
+    padding: 8px;
+ }
+
+ #portfolio {
+    padding: 8px;
+ }
+
+ #contact {
+    padding: 8px;
+ }
+ 
