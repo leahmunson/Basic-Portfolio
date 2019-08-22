@@ -78,4 +78,50 @@ h2 {
  #contact {
     padding: 8px;
  }
- 
+
+ form {
+    margin-left: 30px;
+    line-height: 200%;
+ }
+
+ input {
+    width: 95%;
+    height: 30px;
+ }
+
+ #tallmessage {
+    height: 250px;
+    resize: both;
+    overflow: auto;
+ }
+ #inputbutton {
+    background-color: #4aaaa5;
+    color: white;
+    width: 100px;
+    line-height: 150%;
+ }
+
+ .filler {
+     color: lightgrey;
+     font-size: 13px;
+ }
+
+ .project {
+    position: relative;
+ }
+ .projecttype {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    background-color:#4aaaa5;
+ }
+ #project-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+ }
